@@ -7,7 +7,8 @@
 }
 
 main {
-    width: 40%;
+    width: 60%;
+    height: 50rem;
     margin: .5rem auto;
     padding: 15px;
     border: 1px solid #0ad43c;
@@ -19,19 +20,19 @@ main {
 }
 #mon_id {
     background-color: rgb(80, 235, 119);
+    border-radius: 1rem;
 }
 img {
     display: block;
-    width: 80%;
+    width: 40%;
     margin: 5rem auto;
+    border-radius: 3rem;
 }
 h1 {
     text-align: center;
     margin: 1rem;
 }
-h3(:nth-child()){
-    margin-bottom: 100px;
-}
+
 fieldset {
     display: flex;
     flex-direction: column;
@@ -40,6 +41,7 @@ fieldset {
     padding: 15px;
     margin: 5px auto;
     border-radius: 10px;
+    
 }
 label {
     display:block;
