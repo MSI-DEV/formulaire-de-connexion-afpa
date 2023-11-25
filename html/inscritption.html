@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire de connexion AFPA</title>
+    <title>Formulaire d'inscription AFPA</title>
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <main>
@@ -12,7 +12,7 @@
     <form action="GET" action="./userDetails.html">
         <fieldset class="ma-class">
             <legend>Accès à votre espace privé</legend>
-            <h2>Vous avez déjà un compte</h2>
+            <h2>Créer votre compte</h2>
             <!-- <h3>Connectez-vous</h3> -->
             <label for="email">Identifiant :
                 <input type="text" id="email" placeholder="mail@exemple.fr">
@@ -20,7 +20,10 @@
             <label for="motdepasse">Mot de passe :
                 <input type="password" id="motdepasse">
             </label>
-            <input type="submit" value="Connecter">
+            <label for="confirmermotdepasse">Confirmation mot de passe :
+                <input type="password" id="confirmermotdepasse">
+            </label>
+            <input type="submit" value="inscription">
             
     </fieldset>    
     </form>
