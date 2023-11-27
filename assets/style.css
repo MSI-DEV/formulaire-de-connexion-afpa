@@ -1,9 +1,8 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 20px;
-    /* border: 1px solid red; */
 }
 
 main {
@@ -18,30 +17,27 @@ main {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-/* .ma-class {
-    background-color: rgb(102, 230, 134);
-} */
+
 #mon_id {
     background-color: #D1E7DD;
     border: solid 1px black;
     border-radius: 1rem;
     height: 3rem;
     padding-top: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-bottom: 3rem;
 }
+
 img {
     display: block;
     width: 30%;
     margin: 5rem auto;
     border-radius: 3rem;
-    border-bottom-right-radius: 1px;
-    border-top-left-radius: 1px;
 }
+
 h1 {
     text-align: center;
-    /* margin: 1rem; */
     font-size: 1.5rem;
 }
 
@@ -54,25 +50,46 @@ fieldset {
     border-radius: 20px;
     background-color: #D1E7DD;
     height: 20rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 3rem;
     border: solid 1px black;
 }
+
 label {
-    display:block;
+    display: block;
     margin: 5px auto;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #157347;
     color: white;
 }
-input#email{
+
+input#email {
     margin-left: 1rem;
 }
-input#confirmermotdepasse{
+
+input#confirmermotdepasse {
     margin-right: 5.3rem;
+}
+
+/* Media query pour les petits écrans */
+@media only screen and (max-width: 600px) {
+    main,
+    #mon_id,
+    img,
+    fieldset {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    fieldset {
+        height: auto;
+        width: 100%;
+    }
 }
